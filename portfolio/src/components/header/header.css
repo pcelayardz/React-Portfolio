@@ -2,6 +2,7 @@ header{
     height: 100vh;
     padding-top: 15rem;
     overflow: hidden;
+    background: linear-gradient(var(--color-bg),var(--color-bg),var(--color-bg-variant));
 }
 
 .header__container{
@@ -12,8 +13,7 @@ header{
 }
 
 .desc{
-    width: 60vh;
-    
+    width:45%;
 }
 
 h5{
@@ -79,7 +79,36 @@ img{
 /***********************Media Querys ( MEDIUM DEVICES) ***********************/
 @media screen and (max-width: 1024px) {
     header{
-        height: 68vh;
+        height: 100vh;
+        padding-top: 5rem;
+        background: linear-gradient(var(--color-bg),var(--color-bg),var(--color-bg-variant));
+    }
+    .header__container{
+        text-align: center;
+    }
+
+    .desc{
+        width:100%;
+    }
+
+    .cta{
+        justify-content: center;
+    }
+
+    .me{
+        background: linear-gradient(var(--color-primary),transparent);
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 35%;
+        margin-top: 4rem;
+        border-radius: 25%;
+        overflow: hidden;
+        padding: 1.5rem;
+    }
+    
+    img{
+        border-radius: 25%;
     }
 }
 
@@ -87,9 +116,37 @@ img{
 @media screen and (max-width: 600px) {
     header{
         height: 100vh;
+        padding-top: 3rem;
+        background: linear-gradient(var(--color-bg),var(--color-bg),var(--color-bg-variant));
+    }
+    .header__container{
+        text-align: center;
     }
 
     .header__socials,.scroll__down{
         display: none;
+    }
+    .desc{
+        width:100%;
+    }
+    .cta{
+        justify-content: center;
+    }
+
+    .me{
+        width: 70%;
+        background: linear-gradient(var(--color-primary),transparent);
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 35%;
+        margin-top: 4rem;
+        border-radius: 25%;
+        overflow: hidden;
+        padding: 1.5rem;
+    }
+    
+    img{
+        border-radius: 25%;
     }
 }
