@@ -11,10 +11,10 @@
 }
 
 :root{
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77,181,255,0);
+    --color-bg: #29272a;
+    --color-bg-variant: #774069;
+    --color-primary: #9c83bf;
+    --color-primary-variant: #a0a0bf ;
     --color-white: #fff;
     --color-light: rgba(255,255,255,0.6);
 
@@ -28,10 +28,31 @@
 html{
     scroll-behavior: smooth;
 }
-
+/*
 ::-webkit-scrollbar{
     display: none;
-}
+}*/
+
+/** My own scrollbar **/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-primary); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary-variant); 
+  }
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -52,7 +73,11 @@ h1,h2,h3,h4,h5{
 }
 
 h1{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+}
+
+h5{
+    font-size: 1.2rem;
 }
 
 section{
