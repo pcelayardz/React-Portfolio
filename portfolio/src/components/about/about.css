@@ -1,0 +1,55 @@
+#about{
+    background:linear-gradient(var(--color-bg-variant),var(--color-bg));
+}
+.about__childhood{
+    position: absolute;
+    left: 10%;
+    border: 3px solid var(--color-primary);
+    border-radius: 2rem;
+    width: 35%;
+}
+
+.about__card{
+    border-top: 3px solid var(--color-primary);
+    padding: 2rem;
+}
+
+.about__icons{
+    padding: 0.5rem 1.2rem;
+}
+
+#title{
+    font-size: 2rem;
+}
+
+#me{
+    position: absolute;
+    left: 65%;
+    top: 114%;
+    font-size: 3rem;
+}
+#know{
+    color: var(--color-bg);
+    position: absolute;
+    left: 67.5%;
+    top: 111%;
+    font-size: 1.5rem;
+}
+
+.about__adulthood{
+    position: absolute;
+    left: 54%;
+    top:130%;
+    border: 3px solid var(--color-primary);
+    border-radius: 2rem;
+    width: 35%;
+}
+
+.about__hobbies{
+    position: absolute;
+    left: 10%;
+    top:150%;
+    border: 3px solid var(--color-primary);
+    border-radius: 2rem;
+    width: 35%;
+}
