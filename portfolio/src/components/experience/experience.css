@@ -1,0 +1,100 @@
+#experience{
+    background:linear-gradient(var(--color-bg),var(--color-bg),var(--color-bg-variant));
+}
+
+#level{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#skills{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.experience__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.experience__container > div {
+    background: transparent;
+    border:1px solid  var(--color-bg-variant);   
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    transition: var(--transition);
+}
+
+.experience__container > div:hover{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+}
+
+.experience__container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.experience__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.experience__details{
+    display: flex;
+    gap: 1rem;
+}
+
+.experience__details-icon{
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+/***********************Media Querys ( MEDIUM DEVICES) ***********************/
+@media screen and (max-width: 1024px) {
+    section{
+        padding-top: 1rem !important;
+    }
+    #skills{
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .experience__container{
+        grid-template-columns: 1fr;
+    }
+
+    .experience__container > div{
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+}
+
+/***********************Media Querys ( SMALL DEVICES) ***********************/
+@media screen and (max-width: 600px) {
+    #level{
+        padding-top: 1rem;
+        font-size: 1rem;
+    }
+    #skills{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 0;
+    }
+    .experience__container{
+        grid-template-columns: 1fr;
+        padding: 0rem 1.5rem 1.5rem 1.5rem;
+
+    }
+    .experience__container > div{
+        width: 100%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+}
