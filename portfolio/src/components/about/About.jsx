@@ -45,7 +45,7 @@ const About = () => {
                     <h3 id='title'>Hobbies</h3>
                     <p>I love reading, I try to read at least two chapters before bed, but sometimes I read a lot more than that.
                     I also enjoy amigurumi, which is the art of crocheting small stuffed toys. I have an  
-                    <a href='https://www.instagram.com/fridas__crochet/' target="_blank"> Instragram</a>. Additionally, I love learning new things, such as programming languages,
+                    <a href='https://www.instagram.com/fridas__crochet/' target="_blank" rel="noreferrer"> Instragram</a>. Additionally, I love learning new things, such as programming languages,
                      or anything related to the front-end area and back-end as well. And last but not least, I love coffee.</p>
                 </div>
             </div>

@@ -53,3 +53,66 @@
     border-radius: 2rem;
     width: 35%;
 }
+
+/***********************Media Querys ( MEDIUM DEVICES) ***********************/
+@media screen and (max-width: 1024px) {
+    .about__childhood{
+        left: 5%;
+        top: 102%;
+        width: 43%;
+    }
+    .about__adulthood{    
+        width: 43%;
+    }
+    
+    .about__hobbies{
+        left: 5%;
+        top: 145%;
+        width: 43%;
+    }
+}
+
+
+/***********************Media Querys ( SMALL DEVICES) ***********************/
+@media screen and (max-width: 600px) {
+    section{
+        padding-top: 1rem !important;
+        height: 100% !important;
+    }
+    #me{
+        font-size: 2rem;
+        margin: 0;
+        text-align: center;
+        position:static;
+    }
+    #know{
+
+        color: var(--color-bg);
+        position:static;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .about__card{
+        padding: 1rem;
+    }
+    
+    .about__icons{
+        padding: 0.5rem 1.2rem;
+    }
+    .about__childhood{
+        width: 90%;
+        margin: 0 auto;
+        position:static;
+    }
+    .about__adulthood{   
+        width: 90%;
+        margin: 0.5rem auto; 
+        position:static;
+    }
+    
+    .about__hobbies{
+        width: 90%;
+        margin: 0 auto;
+        position:static;
+    }
+}
