@@ -5,6 +5,12 @@ header{
     background: linear-gradient(var(--color-bg),var(--color-bg),var(--color-bg-variant));
 }
 
+/* .logo{
+    width: 15rem;
+    position: absolute;
+    top: 1%;
+    left: 10%;
+} */
 .header__container{
     text-align: left;
     height: 100%;
@@ -61,7 +67,7 @@ h5{
     padding: 1.5rem;
 }
 
-img{
+.me > img{
     border-radius: 25%;
 }
 

@@ -1,11 +1,15 @@
 import React from 'react';
 import CTA from './CTA';
 import IMAGE from '../../assets/imageHeader.gif'
+// import LOGO from '../../assets/logoPortfolioNoFondo.png'
 import HeaderSocials from './HeaderSocials';
 import '../header/header.css'
 const Header = () => {
     return (
         <header>
+            {/* <div className='logo'>
+                <img src={LOGO} alt='logo'></img>
+            </div> */}
             <div className='container header__container'>
                 <h5>Hello I'm</h5>
                 <h1>Perla Celaya</h1>
