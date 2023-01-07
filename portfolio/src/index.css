@@ -82,7 +82,6 @@ h5{
 
 section{
     padding-top: 5rem;
-    height: 100vh;
 }
 
 /* section > h2, section > h5{
@@ -127,6 +126,10 @@ a:hover{
 .btn-primary{
     background: var(--color-primary);
     color: var(--color-bg);
+}
+
+.btn-center{
+    margin: 0 auto;
 }
 
 img{

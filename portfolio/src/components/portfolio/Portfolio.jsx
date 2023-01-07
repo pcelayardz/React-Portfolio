@@ -2,6 +2,7 @@ import React from 'react';
 import SI from '../../assets/spaceInvaders.PNG'
 import CALENDARIUM from '../../assets/calendarium.PNG'
 import TICTACTOE from '../../assets/tictactoe.PNG'
+import PORTFOLIO from '../../assets/portfolio.PNG'
 import './portfolio.css'
 
 const data = [
@@ -25,6 +26,13 @@ const data = [
         title: 'Tic-Tac-Toe',
         github: 'https://github.com/pcelayardz/Tic-Tac-Toe',
         demo: 'https://pcelayardz.github.io/Tic-Tac-Toe/'
+    },
+    {
+        id: 4,
+        image: PORTFOLIO,
+        title: 'Portfolio',
+        github: 'https://github.com/pcelayardz/React-portfolio ',
+        demo: 'https://pcelayardz.github.io/Tic-Tac-Toe/'
     }
 ]
 
@@ -41,10 +49,10 @@ const Portfolio = () => {
                                 <div className='portfolio__item-image'>
                                     <img src={image} alt={title}></img>
                                 </div>
-                                <h3>{title}</h3>
+                                <h3 className='title-portfolio'>{title}</h3>
                                 <div className='portfolio__item-btn'>
-                                    <a href={github} className='btn' target='_blank' rel="noreferrer">Github</a>
-                                    <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                                    <a href={github} className='btn btn-center' target='_blank' rel="noreferrer">Github</a>
+                                    <a href={demo} className='btn btn-primary btn-center' target='_blank' rel="noreferrer">Live Demo</a>
                                 </div>
                             </article>
                         )

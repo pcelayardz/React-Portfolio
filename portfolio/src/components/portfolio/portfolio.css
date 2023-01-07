@@ -1,5 +1,6 @@
 #portfolio{
     background:linear-gradient(var(--color-bg-variant),var(--color-bg));
+    height: 100%;
 }
 
 #work{
@@ -50,6 +51,10 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem ;
+}
+
+.title-portfolio{
+    text-align: center;
 }
 
 /***********************Media Querys ( MEDIUM DEVICES) ***********************/

@@ -1,5 +1,6 @@
 #experience{
     background:linear-gradient(var(--color-bg),var(--color-bg),var(--color-bg-variant));
+    height: 100vh !important;
 }
 
 #level{
@@ -78,6 +79,10 @@
 
 /***********************Media Querys ( SMALL DEVICES) ***********************/
 @media screen and (max-width: 600px) {
+    #experience{
+        background:linear-gradient(var(--color-bg),var(--color-bg),var(--color-bg-variant));
+        height: 100% !important;
+    }
     #level{
         padding-top: 1rem;
         font-size: 1rem;

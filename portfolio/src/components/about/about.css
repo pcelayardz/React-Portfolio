@@ -1,5 +1,6 @@
 #about{
     background:linear-gradient(var(--color-bg-variant),var(--color-bg));
+    height: 100vh !important;
 }
 .about__childhood{
     position: absolute;
@@ -75,7 +76,7 @@
 
 /***********************Media Querys ( SMALL DEVICES) ***********************/
 @media screen and (max-width: 600px) {
-    section{
+    #about{
         padding-top: 1rem !important;
         height: 100% !important;
     }
