@@ -6,7 +6,7 @@ import HeaderSocials from './HeaderSocials';
 import '../header/header.css'
 const Header = () => {
     return (
-        <header id='React-Portfolio/'>
+        <header >
             {/* <div className='logo'>
                 <img src={LOGO} alt='logo'></img>
             </div> */}
